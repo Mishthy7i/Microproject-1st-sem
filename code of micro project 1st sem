@@ -1,0 +1,136 @@
+#include <iostream>
+#include <string>
+#include <array>
+using namespace std;
+int main(){
+    int a,i,b,c,m,j,f,h,counter=0,flag=0,z=0;
+    float e,q;
+     string username, password,l,p,s,g,r,d;
+    string arr[8];
+    int arr2[8]={0,0,0,0,0,0,0,0};
+    int quant[8];
+    int mul[8];
+    char k;
+    cout<<"**********************************************************SUPERMARKET SIMULATION******************************************"<<endl;
+
+cout<<      "                                                      <<WELCOME TO APNAA BAAZAARR>>                                                      " <<endl;                             
+cout<<"                                                                                                                                "<<endl;     
+cout<<"                                               CHOOSE THE LANGUAGE YOU WANT TO CONTINUE WITH                                  "<<endl;
+cout<<"Enter 0 for english and 1 for hindi "<<endl;
+for(i=1;i<=5;i++){
+    cin>>a;
+if(a==0){
+    cout<<"log-in/ sign-up to proceed"<<endl;
+    cout<<"                                                                                                                          "<<endl;
+    cout<<"                                                 CREATE YOUR ACCOUNT                                                 "<<endl;
+    cout<<"                                                                                                                             "<<endl;
+    cout<<" Enter your username     : " ;
+    cin>>username; 
+    cout<<endl;
+    cout<<" Enter your password     :  " ; 
+    cin>>password; 
+
+    cout<<endl;
+    cout<<"                                                                                                                          "<<endl;
+    cout<<"                                   YOUR ACCOUNT HAS BEEN CREATED SUCCESSFULLY                           "<<endl;
+    cout<<"                                                                                                               "<<endl;
+    cout<<" log-in to proceeed"<<endl;
+    cout<<"Enter your username :"; 
+    cin>>l; 
+    cout<<endl;
+    if(l != username){
+        for(h=0;;h++){
+              cout<<"pls enter correct username";
+              cin>>d;
+            if(d== username){
+                break;
+            }  else{
+                continue;
+            }      }
+    }
+     if( d == username || l == username){
+        
+        cout<<" Enter your password : ";
+        cin>>s;
+        if(s != password){
+            for(i=0;;i++){
+            cout<<"Password didn't matched. Incorrect password.Enter correct password : ";
+            cin>>p;
+            if(p== password){break;
+            }else{
+                continue;
+            }
+            break;
+        }}
+    }
+    cout<<"                                                                                                                            "<<endl;
+    cout<<"****************************************************CATEGORIES TO SHOP***************************************************************"<<endl;
+    cout<<"                                                                                                                                  "<<endl;
+    cout<<" _____________________________________________"<<"           "<<" _____________________________________________________________"<<endl;
+    cout<<"|           FRUITS AND VEGETABLES             |"<<"          "<<"|                        STATIONARY ITEMS                     |"<<endl;
+    cout<<"|  1. APPLE  (100 RS. per kilograms)          |"<<"          "<<"| 1. GEOMETRY BOX (200 RS. per piece, durable, metal body)    |"<<endl;
+    cout<<"|  2. KIWI   (200 RS. per kg, fresh)          |"<<"          "<<"| 2. OXFORD DICTIONARY(250 RS. per piece)                     |"<<endl;
+    cout<<"|_____________________________________________|"<<"          "<<"|_____________________________________________________________|"<<endl;
+    cout<<"                                                                                                                                   "<<endl;
+    cout<<"                                                                                                                                    "<<endl;
+    cout<<" _____________________________________________"<<"           "<<" _____________________________________________________________"<<endl;
+    cout<<"|          MEDICINE AND DISPENSARY            |"<<"          "<<"|                          BEAUTY / SKINCARE                  |"<<endl;
+    cout<<"| 1. SANITIZER (70 RS. , 90ml)                |"<<"          "<<"| 1. NIVEA BODY LOTION(120 RS. , 85ml)                        |"<<endl;
+    cout<<"| 2. SANITARY NAPKINS(80 RS. , 6 pads)        |"<<"          "<<"| 2. COFFEE LIPBALM( 50 RS. , per piece)                      |"<<endl;
+    cout<<"|_____________________________________________|"<<"          "<<"|_____________________________________________________________|"<<endl;
+    cout<<"                                                                                                                                "<<endl;
+    cout<<"Enter the name of product  you wish to buy"<<endl;
+    for(i=0;i<=4;i++){
+    cin>>arr[i];
+    cout<<"Enter 1 to exit this loop or enter 2 to continue adding items";
+    cin>>j;
+    counter++;
+    if(j == 1){
+        break;
+    }
+    else if(j==2){
+        continue;
+    }
+ 
+    }
+    cout<<"the items you have entered and wish to buy are : "<<endl;
+    for(i=0;i<counter;i++){
+        cout<<arr[i]<<" "<<endl;
+    }
+    cout<<"Enter the quantity of product you wanna buy respectively"<<endl;
+    for(i=0;i<counter;i++){
+        cin>>quant[i];
+    }
+    cout<<"Enter the price per kg/piece of products you want to buy"<<endl;
+    for(i=0;i<counter;i++){
+        cin>>arr2[i];
+        
+        }
+
+    
+    cout<<"\n overall price of each product is"<<endl;
+    for(i=0;i<counter;i++){
+      mul[j]=arr2[i]*quant[i];
+      z=z+mul[j];
+      e=0.05*z;
+      q=z+e;
+      cout<<mul[j]<<" ";
+    
+    
+      }
+      cout<<endl;
+      cout<<"The total cost of items is : Rs."<<" "<<z<<"  "<< "With 5% of GST included of : Rs."<<e<<endl;
+      cout<<"\n ******************************************************** TOTAL AMOUNT PAYABLE*******************************************"<<endl;
+      cout<<"                                                  "<<"               Rs. "<<q<<"/-"<<endl;
+      cout<<"with 5 % of GST included";
+break;}
+else if(a==1){ 
+    cout<<"aage jari rakhne k liye apna account log in kare.";
+break;    
+}
+else{
+    cout<<"pls enter valid no. among 0 and 1";
+}
+
+}
+}
