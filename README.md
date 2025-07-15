@@ -66,5 +66,16 @@ The **Supermarket Simulation System** is a simple yet functional software design
 _(You can also scan the QR code in the poster to try the project!)_
 
 ---
+## 🎥 Project Demo 
+
+Here’s a quick look at how the Supermarket Simulation System works in action:
+
+![Demo Preview](./assets/project_demo.gif)
+
+## 🎬 Full HD Video Demo
+
+📽️ **Watch the Full Demo Here:**  
+🔗 [Click to Watch on Google Drive](https://drive.google.com/file/d/1o4r85kfA4HQoF42UwraEvbcUAO3NnRuL/view?usp=drivesdk)
+
 
 
