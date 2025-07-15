@@ -1,6 +1,6 @@
 # 🛒 Supermarket Simulation System
 
-A C++-based console application that simulates the **online shopping experience**, developed as a 1st semester micro project at **Madhav Institute of Technology & Science, Gwalior**.
+A C++ based console application that simulates the **online shopping experience**, developed as a 1st semester micro project at **Madhav Institute of Technology & Science, Gwalior**.
 
 ---
 
