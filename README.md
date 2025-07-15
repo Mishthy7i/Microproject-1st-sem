@@ -61,7 +61,8 @@ The **Supermarket Simulation System** is a simple yet functional software design
 
 ## 📷 Project Poster
 
-![Project Poster](assets/project-poster.png)  
+![Project Poster](./assets/project_poster.png)
+  
 _(You can also scan the QR code in the poster to try the project!)_
 
 ---
